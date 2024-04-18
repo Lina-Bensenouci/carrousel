@@ -34,6 +34,7 @@ function genere_html(){
     <a href="" class="carrousel__x">x</a>
     <figure class="carrousel__figure"></figure>
     <form action="" class="carrousel__action"</form>
+    </div>
   ';
   
 
