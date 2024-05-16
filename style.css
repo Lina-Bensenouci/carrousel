@@ -48,4 +48,36 @@
 
 .bouton__ouvrir {
   width: 200px;
+}
+
+form.carrousel__action {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  width: 100%;
+}
+
+.carrousel__figure {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.carrousel__figure .carousel__prev, .carrousel__figure .carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.carrousel__figure .carousel__prev {
+  left: 10px;
+}
+.carrousel__figure .carousel__next {
+  right: 10px;
 }/*# sourceMappingURL=style.css.map */
