@@ -29,38 +29,6 @@
 .carrousel__figure{
   width: 100%;
   height: 100%;
-}
-
-.carrousel__img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  //opacity: 0;
-}
-
-.carrousel--ouvrir{
-  transform: scale(1);
-}
-
-.bouton__ouvrir{
-  width: 200px;
-}
-
-form.carrousel__action{
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 25%;
-  bottom: 25%;
-  width: 100%;
-}
-
-.carrousel__figure{
-  width: 100%;
-  height: 100%;
   overflow: hidden;
   position: relative;
  
@@ -82,4 +50,35 @@ form.carrousel__action{
   .carousel__next {
     right: 10px;
   }
+}
+ 
+.carrousel__img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  object-fit: cover;
+  // opacity: 0;
+}
+ 
+.carrousel--ouvrir{
+  transform: scale(1);
+}
+ 
+.bouton__ouvrir {
+  width: 200px;
+}
+ 
+.carrousel__img {
+  transition: opacity 0.5s;
+}
+ 
+form.carrousel__action {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
